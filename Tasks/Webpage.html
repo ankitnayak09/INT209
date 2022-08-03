@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K20PR</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: slateblue;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            transition: color 0.5s;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 1rem;
+            font-size: 1.25rem;
+            cursor: pointer;
+            transition: color 0.5s;
+        }
+
+        nav ul li:hover,a:hover {
+            text-decoration: underline;
+            color: white;
+        }
+
+        img {
+            transition: all 0.3s;
+        }
+
+        img:hover {
+            box-shadow: 0px 3px 10px rgb(217, 246, 255);
+            transform: translateY(-3px) scale(1.02);
+        }
+
+        center a {
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>K20PR</h1>
+        <ul>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+    <center>
+        <a href="">
+            <img src="img.jpg" alt="Audi R8" width="500"><br>
+            <i>Audi R8</i>
+        </a>
+    </center>
+</body>
+</html>
