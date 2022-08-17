@@ -1,0 +1,26 @@
+p {
+    color:darkorchid;
+    font-size: 2rem;
+}
+
+h1,h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: crimson;
+}
+
+.gray {
+    color: gray;
+}
+
+#italic {
+    font-style: italic;
+}
+
+.highlight {
+    color: crimson;
+    background-color:yellow !important;
+}
+
+.highlight {
+    background-color: red;
+}
