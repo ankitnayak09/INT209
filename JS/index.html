@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body>
+
+    <h1>
+        Javascript Basics
+    </h1>
+    <script>
+        let a;
+        console.log(a);
+
+        let b = a;
+        console.log(b);
+        b = 5;
+        console.log(b + " data type:" + typeof (b));
+        b = "Hello";
+        console.log(b + " data type:" + typeof (b));
+
+        let c = 10;
+        b = 5;
+        c = c + b;
+        console.log(c);
+        b = "Hello";
+        c = c + b;
+        console.log(c);
+
+
+
+
+        let myVar = "hello world welcome"
+        console.log("hello KM113");
+        console.log(typeof "hello")
+        console.log(typeof true)
+        console.log(myVar.length)
+        console.log(myVar.charAt(10))
+        console.log(myVar.indexOf("lc"))
+        console.log(myVar.slice(5, 18));
+        console.log(myVar.toUpperCase());
+        console.log(myVar.toLowerCase());
+        console.log(myVar.includes("world"));
+
+
+        myVar = "hello world welcome";
+        let x = 5;
+        var num = prompt("Enter the Number");
+
+        if(num > 20) {
+            document.write("greater");
+        } else {
+            document.write("less");
+        }
+
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+        for(var i=0; i < 10; i++) {
+            document.write(i + "<br>");
+        }
+
+    </script>
+</body>
+
+</html>
