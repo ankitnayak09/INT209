@@ -1,0 +1,3 @@
+[submodule "Tasks/Tasks/RockPaperScissor/rockPaperScissor"]
+	path = Tasks/Tasks/RockPaperScissor/rockPaperScissor
+	url = https://github.com/ankitnayak09/rockPaperScissor
